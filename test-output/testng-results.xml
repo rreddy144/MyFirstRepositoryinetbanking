@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-27T16:05:19 IST" name="Default suite" finished-at="2022-04-27T16:05:44 IST" duration-ms="25203">
+    <groups>
+    </groups>
+    <test started-at="2022-04-27T16:05:19 IST" name="Default test" finished-at="2022-04-27T16:05:44 IST" duration-ms="25203">
+      <class name="com.inetbankingNew.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.inetbankingNew.qa.testcases.LoginTest@1ed6388a]" started-at="2022-04-27T16:05:19 IST" name="setup" finished-at="2022-04-27T16:05:30 IST" duration-ms="10721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.inetbankingNew.qa.testcases.LoginTest@1ed6388a]" started-at="2022-04-27T16:05:30 IST" name="logintest" data-provider="getlogindata" finished-at="2022-04-27T16:05:33 IST" duration-ms="2851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr400098]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zUzUhuz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successfull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbankingNew.qa.testcases.LoginTest@1ed6388a]" started-at="2022-04-27T16:05:33 IST" name="teardown" finished-at="2022-04-27T16:05:33 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.inetbankingNew.qa.testcases.LoginTest@1ed6388a]" started-at="2022-04-27T16:05:33 IST" name="setup" finished-at="2022-04-27T16:05:40 IST" duration-ms="7553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.inetbankingNew.qa.testcases.LoginTest@1ed6388a]" started-at="2022-04-27T16:05:40 IST" name="logintest" data-provider="getlogindata" finished-at="2022-04-27T16:05:44 IST" duration-ms="3203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr401298]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zUzUhuz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbankingNew.qa.testcases.LoginTest@1ed6388a]" started-at="2022-04-27T16:05:44 IST" name="teardown" finished-at="2022-04-27T16:05:44 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbankingNew.qa.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
